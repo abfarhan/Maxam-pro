@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container row">
+  <div class="wrap">
+    <section>
+      <div class="logo-header">
+        <img src="assets/logonew.png" alt="maxam-pro logo" />
+        <span>Maxam Pro</span>
+      </div>
+    </section>
+    <section class="flex main-section">
+      <div class="main-content">
+        <h1>Maxam Pro is a Demo Application</h1>
+        <p>
+          Maxam Pro is a demo app with lot's of features that can be implemented
+          easily.
+        </p>
+        <a (click)="onClick()" class="main-button">Let's Go</a>
+      </div>
+      <div class="main-img">
+        <img src="assets/iphone.png" alt="iphone" />
+      </div>
+    </section>
+  </div>
+</div>
+<div class="scroll">
+  <img src="assets/scroll.svg" alt="scroll" />
+</div>
+<div class="container-2">
+  <div class="wrap">
+    <section class="flex section-2 row">
+      <div class="section-2-content">
+        <h1>Maxam Bot</h1>
+        <div class="flex bot">
+          <i class="ion-logo-android"></i>
+          <p>
+            Don't wait for our customer representative. Chat with Maxam Bot.
+          </p>
+        </div>
+      </div>
+      <div class="section-2-img">
+        <img src="assets/rewind.png" alt="something" />
+      </div>
+    </section>
+    <section class="flex section-2 row">
+      <div class="section-2-img">
+        <img src="assets/rewind.png" alt="something" />
+      </div>
+      <div class="section-2-content">
+        <h1>Maxam Videos</h1>
+        <div class="flex bot">
+          <i class="ion-logo-youtube"></i>
+          <p>Watch Maxam video and learn how it works.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container-footer row">
+    <section class="flex wrap footer-wrap">
+      <div>
+        <p>Some animation</p>
+      </div>
+      <div>
+        <p>Copyright &copy; 2019 by Maxam Pro. All rights reserved</p>
+      </div>
+      <div>
+        <p>Some Other Info</p>
+      </div>
+    </section>
+  </div>
+</div>
+<div class="cat">
+  <img src="assets/404-2.png" alt="" />
+  <div>oops sorry...</div>
+  <br />
+  <div>Please try accessing from desktop, laptop, iPad or tablet...</div>
+</div>
+<loader1 *ngIf="showLoader"></loader1>
+
+</body>
+</html>
